@@ -1,5 +1,5 @@
 #
-# Vendor blobs for jackpotlte - A530FXXULCUK6
+# Vendor blobs for jackpot2lte - A730FXXU7CZC1
 #
 
 # Audio Configs

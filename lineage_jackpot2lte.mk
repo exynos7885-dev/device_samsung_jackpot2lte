@@ -9,16 +9,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ## Device
-$(call inherit-product, device/samsung/jackpotlte/device.mk)
+$(call inherit-product, device/samsung/jackpot2lte/device.mk)
 
 ## LineageOS
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := lineage_jackpotlte
-PRODUCT_DEVICE := jackpotlte
+PRODUCT_NAME := lineage_jackpot2lte
+PRODUCT_DEVICE := jackpot2lte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := Galaxy A8 2018
+PRODUCT_MODEL := Galaxy A8+ 2018
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 PRODUCT_SHIPPING_API_LEVEL := 28

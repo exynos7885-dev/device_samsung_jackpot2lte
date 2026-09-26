@@ -40,7 +40,7 @@ fi
 
 set -e
 
-export DEVICE=jackpotlte
+export DEVICE=jackpot2lte
 export DEVICE_COMMON=exynos7885-common
 export VENDOR=samsung
 

@@ -11,7 +11,7 @@ TARGET_BOARD_PLATFORM := exynos7885
 TARGET_BOOTLOADER_BOARD_NAME := samsungexynos7885
 
 ## Device Path
-DEVICE_PATH := device/samsung/jackpotlte
+DEVICE_PATH := device/samsung/jackpot2lte
 
 ## Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
@@ -20,7 +20,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 $(call inherit-product, device/samsung/exynos7885-common/exynos7885.mk)
 
 ## Inherit vendor blobs
-$(call inherit-product, vendor/samsung/jackpotlte/jackpotlte-vendor.mk)
+$(call inherit-product, vendor/samsung/jackpot2lte/jackpot2lte-vendor.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -93,4 +93,4 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    WifiOverlayA8
+    WifiOverlayA8Plus

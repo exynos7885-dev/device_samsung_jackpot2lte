@@ -1,6 +1,6 @@
 runtime_resource_overlay {
-    name: "WifiOverlayA8",
-    theme: "WifiOverlayA8",
+    name: "WifiOverlayA8Plus",
+    theme: "WifiOverlayA8Plus",
     sdk_version: "current",
     vendor: true
 }
